@@ -1,0 +1,59 @@
+
+
+.listOfTask{
+	cursor: pointer;
+
+	position: relative;
+	counter-increment: list;
+	max-width: 100vw;
+	margin: 3rem auto;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	border-radius: 0.25rem;
+	overflow: hidden;
+	background-color: white;
+}
+
+.listOfTaskColor{
+	background-color: var(--colorOfLineAndNumber);
+
+	height: 1.5rem;
+}
+
+
+.taskTitleContainer{
+	display: flex;
+	font-size: larger;
+
+	align-items: center;
+	justify-content: flex-start;
+	padding: 1rem 2rem;	
+}
+
+.taskTitleContainer :nth-child(1)
+{
+	background-color: var(--colorOfLineAndNumber);
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	align-content: center;
+	border-radius: 50%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	color: white;
+
+}
+
+.taskTitleContainer :nth-child(2)
+{
+	padding-left: 1.5rem;
+}
+
+.listOfTask :nth-child(3){
+	
+	padding: 0.1rem 1rem 2.5rem 2.5rem;
+	
+}
+

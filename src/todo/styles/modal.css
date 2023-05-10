@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+.modal{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: whitesmoke;
+  opacity: 10;
+  width: 40vw;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  scroll-behavior: auto;
+}
+
+
+.modalarea{
+  padding: 3rem;
+}
+
+.taskTitleInput,
+span,
+.taskLabel,
+.taskDescriptionInput {
+  font-family: 'Ubuntu', sans-serif;
+  display: block;
+  margin: 10px 0px;
+  padding: 5px;
+  border: none;
+  font-size: 22px;
+}
+
+
+
+textarea:focus,
+input:focus {
+  outline: 0;
+}
+
+.taskTitleInput {
+  font-size: 2rem;
+  width: 100%;
+}
+
+.taskDescriptionInput{
+  font-size: 1rem;
+  width: 100%;
+ 
+}
+
+.taskDescriptionWithContent{
+  word-wrap: bre;
+}
+
+.modalBtnContainer{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+
+}
+
+
+.disableInput{
+  pointer-events: none;
+  font-size: large;
+  background-color: whitesmoke;
+}
+
+.modalBtn{
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #32557f;
+  border: 1px solid #32557f;
+  color: white;
+}
+
+.modalBtn.cancelBtn{
+  background-color: red;
+  border: 1px solid red;
+}
+
+
+
+.selectTaskType{
+  margin-top: 10px;
+}
+
+
+.selectTaskType select{
+  padding: 0.8rem;
+  border: none;
+}
